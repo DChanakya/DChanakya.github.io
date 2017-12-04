@@ -61,19 +61,10 @@ body a:hover,body a:focus{
     display: inline-block;
 	text-decoration: none;
 }
-.agile-logo a img {
-    width: 22%;
-    display: inline-block;
-    margin-top: -7px;
-	-webkit-animation: fa-spin 5s infinite linear;
-    -moz-animation: fa-spin 5s infinite linear;
-	-ms-animation: fa-spin 5s infinite linear;
-	-o-animation: fa-spin 5s infinite linear;
-    animation: fa-spin 5s infinite linear;
-}
+
 .agile-logo {
     float: left;
-    width: 50%;
+    width: 30%;
 }
 .agileits-w3layouts-icons {
     float: right;
