@@ -1,4 +1,9 @@
-
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -56,10 +61,19 @@ body a:hover,body a:focus{
     display: inline-block;
 	text-decoration: none;
 }
-
+.agile-logo a img {
+    width: 22%;
+    display: inline-block;
+    margin-top: -7px;
+	-webkit-animation: fa-spin 5s infinite linear;
+    -moz-animation: fa-spin 5s infinite linear;
+	-ms-animation: fa-spin 5s infinite linear;
+	-o-animation: fa-spin 5s infinite linear;
+    animation: fa-spin 5s infinite linear;
+}
 .agile-logo {
     float: left;
-    width: 30%;
+    width: 50%;
 }
 .agileits-w3layouts-icons {
     float: right;
