@@ -35,14 +35,8 @@
 <!--<link rel="stylesheet" href="css/swipebox.css"> -->
 <!-- //Custom Theme files -->   
 <!-- js -->
- <!-- <script src="js/jquery-2.2.3.min.js"></script>   -->
- <script src="js/SmoothScroll.min.js"></script> 
-	<!-- <script type="text/javascript" src="js/move-top.js"></script> -->
-	<!-- <script type="text/javascript" src="js/easing.js"></script>	 -->
-			<script src="js/jquery.filterizr.js"></script>  
-	<!-- <script src="js/controls.js"></script>  -->
-          <script src="https://code.jquery.com/jquery-3.1.1.min.js"  ></script>
-		  <script src="js/bootstrap.js"></script>
+<script src="js/jquery-2.2.3.min.js"></script> 
+
 
 <!-- //js -->
 <!-- web-fonts -->    
@@ -132,8 +126,6 @@
 					<li><a href="#contact" class="scroll"><span>Contact</span></a></li>
 				</ul>
 				<!-- script-for-menu -->
-				
-				
 				<script>
 				   $( "span.menu" ).click(function() {
 					 $( "ul.w3l" ).slideToggle( 300, function() {
@@ -141,8 +133,6 @@
 					  });
 					 });
 				</script>
-				
-				
 				<!-- //script-for-menu -->
 			</div><!-- //navigation end here -->	
 		</div>
@@ -1625,62 +1615,56 @@
 	<!-- //footer end here -->   
 	<!-- Kick off Filterizr -->
 	
-	 <script type="text/javascript"> 
-		 $(function() { 
-			 //Initialize filterizr with default options 
-			 $('.filtr-container').filterizr(); 
-		 }); 
-	 </script> 
-
-	
+		<script src="js/jquery.filterizr.js"></script>  
+	<script src="js/controls.js"></script> 
+	<script type="text/javascript">
+		$(function() {
+			//Initialize filterizr with default options
+			$('.filtr-container').filterizr();
+		});
+	</script>	
 	<!-- swipe box js -->
-	<!-- <script src="js/jquery.swipebox.min.js"></script>  -->
-	<!-- <script type="text/javascript"> -->
-			<!-- jQuery(function($) { -->
-				<!-- $(".swipebox").swipebox(); -->
-			<!-- }); -->
-	<!-- </script>  -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script> 
 	<!-- //swipe box js --> 	 
 	<!-- start-smooth-scrolling -->
-	
-	 <script type="text/javascript"> 
-			 jQuery(document).ready(function($) { 
-				 $(".scroll").click(function(event){		 
-					 event.preventDefault(); 
+	<script src="js/SmoothScroll.min.js"></script> 
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
 			
-			 $('html,body').animate({scrollTop:$(this.hash).offset().top},1000); 
-				 }); 
-			 }); 
-	 </script> 
-	
-	
-	
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
 	<!-- //end-smooth-scrolling -->	
 	<!-- smooth-scrolling-of-move-up -->
-	
-	
-	 <script type="text/javascript"> 
-		 $(document).ready(function() { 
-			 /* 
-			 var defaults = { 
-				  containerID: 'toTop', // fading element id 
-				 containerHoverID: 'toTopHover', // fading element hover id 
-				 scrollSpeed: 1200, 
-				 easingType: 'linear'  
-			 }; 
-			 */ 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
 			
-			 $().UItoTop({ easingType: 'easeOutQuart' }); 
+			$().UItoTop({ easingType: 'easeOutQuart' });
 			
-		 }); 
-	 </script> 
-	
-	
-	
+		});
+	</script>
 	<!-- //smooth-scrolling-of-move-up -->  
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
