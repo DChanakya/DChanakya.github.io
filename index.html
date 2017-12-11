@@ -145,12 +145,12 @@
 	<!-- portfolio -->
 	<div id="portfolio" class="services portfolio">
 		<div class="container">   
-			<h3 class="agileits-title">Events</h3>  
+			<h3 class="agileits-title" id="evnt">Events</h3>  
 			<div class="gallery_gds">
 				<ul class="simplefilter">
-					<li class="active" data-filter="3">Flagship Events</li>
-					<li data-filter="1">Technical Events</li>
-					<li data-filter="2">Cultural Events</li>
+                                    <li class="active" type="button" class="btn btn-warning" data-filter="3" style="background-color: orange;color: white;padding: 6px;" onclick="flagshipEvents();">Flagship Events</li>
+                                        <li data-filter="1" type="button"  class="btn btn-warning" data-filter="3" style="background-color: white;padding: 6px" onclick="techEvents()">Technical Events</li>
+					<li data-filter="2" type="button"  class="btn btn-warning" data-filter="3" style="background-color: greenyellow;padding: 6px" onclick="culturalEvents()">Cultural Events</li>
 					
 				</ul>
 				<div class="filtr-container">
@@ -487,7 +487,7 @@
                                     <div class="modal-body">
                                         <img  class="img-responsive img-rounded" src="images/circuitrix.jpg"/>
                                         <h4 class="text-center"> Circuitrix</h4> 
-                                        <b class="text-danger">Event Co-ordinator: Mr. B Balaji, ECE,  Ph:9010250644 </b><br>
+                                        <b class="text-danger">Event Co-ordinator: Mr. Syam Sundar, ECE,  Ph:8885522122 </b><br>
                                         <p>This event will be organized by the III year ECE students<br>
                                             The event consist of 4 rounds.<br>
                                             1. Written test[ Aptitute, EDC, Basic Physics, STLD, ET] -20 bits - 20 Mins<br>
@@ -607,7 +607,7 @@
                                                         <p>Artificial Intelligence</p>
                                                         <p>Mobile Computing</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.cse@usharama.in">yourfest.cse@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.cse@usharama.in">yourfest.cse@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>    
 
@@ -629,7 +629,7 @@
                                                         <p> Vlsi Technology</p>
                                                         <p> Nano Technology</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.ece@usharama.in">yourfest.ece@usharama.in</a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.ece@usharama.in">yourfest.ece@usharama.in</a></strong></p>
 
                                                     </div>
                                                 </div>
@@ -651,7 +651,7 @@
                                                         <p>Transmission and distribution systems and protection</p>
                                                         <p>Wireless electricity</p>
                                                         <p>Any other topic related to Electrical engineering</p>
-                                                        <p> <strong>Send to : <a href="mailto:yourfest.eee@usharama.in">yourfest.eee@usharama.in&nbsp;</a></strong></p>
+                                                        <p> <strong>Please send your paper to: <a href="mailto:yourfest.eee@usharama.in">yourfest.eee@usharama.in&nbsp;</a></strong></p>
 
 
                                                     </div>
@@ -674,7 +674,7 @@
                                                         <p>Low cost housing and infrastructure</p>
                                                         <p>Any other topic in civil engineering</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.civil@usharama.in">yourfest.civil@usharama.in&nbsp;</a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.civil@usharama.in">yourfest.civil@usharama.in&nbsp;</a></strong></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -692,7 +692,7 @@
                                                         <p>Turbo machinery</p>
                                                         <p>Recent trends in thermal sciences</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.mech@usharama.in">yourfest.mech@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.mech@usharama.in">yourfest.mech@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>
 
@@ -738,8 +738,8 @@
                                         Paper should be in IEEE format, max two authors per team.
                                         <br>
                                         Last Date for submission of your paper in soft copy is 3-Jan-2017.
-                                        Selection of the paper will be notified on 5-Jan-2017.
-                                        <h5>TOPICS for PPT</h5>
+                                        Selection of the paper will be notified on 5-Jan-2017.<br>
+                                        <h5 style="font-family: Arial;"><b><br>TOPICS for PPT</b></h5>
 										<br>
 										<button type="button" class="btn btn-success" class="col-md-4 col-sm-4 col-xs-6" onclick="engtopicview()">Engineering</button>
 										&nbsp;
@@ -763,7 +763,7 @@
                                                         <p>Cognitive Computing</p>
                                                         <p>Cluster Computing</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.cse@usharama.in">yourfest.cse@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.cse@usharama.in">yourfest.cse@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>    
                                                     </div>
@@ -784,7 +784,7 @@
                                                         <p> Vlsi Technology</p>
                                                         <p> Nano Technology</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.ece@usharama.in">yourfest.ece@usharama.in</a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.ece@usharama.in">yourfest.ece@usharama.in</a></strong></p>
 
                                                     </div>
                                                 </div>
@@ -806,7 +806,7 @@
                                                         <p>Transmission and distribution systems and protection</p>
                                                         <p>Wireless electricity</p>
                                                         <p>Any other topic related to Electrical engineering</p>
-                                                        <p>  <strong>Send to : <a href="mailto:yourfest.eee@usharama.in">yourfest.eee@usharama.in&nbsp;</a></strong></p>
+                                                        <p>  <strong>Please send your paper to: <a href="mailto:yourfest.eee@usharama.in">yourfest.eee@usharama.in&nbsp;</a></strong></p>
 
                                                     </div>
                                                 </div>
@@ -828,7 +828,7 @@
                                                         <p>Low cost housing and infrastructure</p>
                                                         <p>Any other topic in civil engineering</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.civil@usharama.in">yourfest.civil@usharama.in&nbsp;</a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.civil@usharama.in">yourfest.civil@usharama.in&nbsp;</a></strong></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -840,13 +840,13 @@
                                                 </div>
                                                 <div id="amechanical" class="panel-collapse collapse in">
                                                     <div class="panel-body">
-                                                        <p>Advanced manufacturing and materials</p>
-                                                        <p>Design and optimization</p>
-                                                        <p>Robotics and automation</p>
-                                                        <p>Turbo machinery</p>
-                                                        <p>Recent trends in thermal sciences</p>
+                                                        <p>MEMS, Bio Smart Materials</p>
+                                                        <p>Alternative Energy Sources</p>
+                                                        <p>Manufacturing science</p>
+                                                        <p>Design, Automation & Robotics</p>
+                                                        <p>Fluid Power & Thermal Science</p>
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.diploma@usharama.in">yourfest.mech@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.diploma@usharama.in">yourfest.mech@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>
 
@@ -881,7 +881,7 @@
 			5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Geo-synthetics in construction of roads</p>
 	
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>    
                                                     </div>
@@ -910,7 +910,7 @@
 		<p>
 			5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Embedded systems</p>
 	<p>
-                                                            <strong>Send to : <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>
 
@@ -940,7 +940,7 @@
 			5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Smart grid</p>
 
                                                         <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>
 
@@ -969,7 +969,7 @@
 		<p>
 			5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Latest trends in&nbsp; design field</p>
 	                                                 <p>
-                                                            <strong>Send to : <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
+                                                            <strong>Please send your paper to: <a href="mailto:yourfest.diploma@usharama.in">yourfest.diploma@usharama.in </a></strong></p>
                                                         <p>
                                                             &nbsp;</p>
 
@@ -1030,7 +1030,7 @@
                                     <div class="modal-body">
                                         <img class="img-responsive img-rounded" src="images/telugu-ammayi.jpg"/>
                                         <h4 class="text-center"> Telugu Ammai contest </h4>
-                                        <b class="text-danger">Event Co-ordinator:Ms Y Salini, CSE,  Ph:8121169999 </b><br>
+                                        <b class="text-danger">Event Co-ordinator:Ms K.Nitya, ECE,  Ph:98885571089 </b><br>
                                         <br><br><b> Rules:</b><br>
                                         Should be presented at the time of event
                                     </div>
@@ -1509,7 +1509,7 @@
 					</div>
 					<div class="col-md-8 col-xs-8 date-info">
 						<h5>Cash prizes</h5>
-						<p>1st prize Rs.50,000/-, <br>2nd Prize Rs.25,000/-, 3rd Prize Rs.15,000/-, <br>Consolation Prizes (two) Rs.5,000/- each  </p>
+						<p>1st prize Rs.50,000/-, <br>2nd Prize Rs.25,000/-,<br> 3rd Prize Rs.15,000/-, <br>Consolation Prizes (two) Rs.5,000/- each  </p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -1653,12 +1653,12 @@
 					<div class="cnt-address">
 						<h5 class="w3ls-title1">Address</h5> 
 						<p>Usharama College of Engineering & Technology
-							<span>Telaprolu, Ungutur Mandalam, Krishna District,</span>
+							<span>Telaprolu, Near Gannavaram, Krishna District,</span>
 							AP - 521109.
 						</p> 	
 						<p>Mobile : 9848399285, 9949257091
 							<span>LandLIne : 0866 2527571, 2527563</span><br>
-							E-mail: <a href="mailto:yourfest@usharama.in">yourfest@usharama.in</a>
+							<strong>For Queries E-mail: <a href="mailto:yourfest@usharama.in">yourfest@usharama.in</a>
 						</p>
 					</div>
 				</div>
@@ -1847,5 +1847,21 @@ function diplomatopicview() {
 }
 
 	</script>
+        
+        <script>
+            
+            function techEvent()
+            {
+                document.getElementById("evnt").innerHTML="Technical Events On Day 1";
+            }
+             function culturalEvent()
+            {
+                document.getElementById("evnt").innerHTML="Cultural Events On Day 2";
+            }
+            function flagshipEvent()
+            {
+                document.getElementById("evnt").innerHTML="Flagship Events";
+            }
+            </script>
 </body>
 </html>
